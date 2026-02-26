@@ -1,0 +1,22 @@
+Repo runterladen
+- win + r -> cmd
+- git clone https://github.com/nsapscience/On-Time-.git
+- Unity öffnen
+- Add -> Add Project from disk
+- On-Time- Ordner auswählen
+
+
+
+Änderungen Hochladen
+- On Time! Ordner im Explorer öffnen
+- rechts Klick
+- "im Terminal öffnen" klicken
+	- git add .
+	- git commit -m "Beschreibung"
+	- git push
+
+
+
+Änderungen runterladen
+- Terminal
+- git pull
