@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask solidObjectsLayer;
 
+    public LayerMask interacableLayer;
+
+
     private void Awake()
     {
 
@@ -30,8 +33,8 @@ public class PlayerController : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
-            Debug.Log("This is input.x" + input.x);
-            Debug.Log("This is input.y" + input.y);
+            //Debug.Log("This is input.x" + input.x);
+            //Debug.Log("This is input.y" + input.y);
 
             if(input != Vector2.zero)
             {
@@ -51,6 +54,28 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("isMoving", isMoving);
+
+        if(Input.GetKeyDown(KeyCode.E))
+            Interact();
+
+
+    }
+
+    void Interact()
+    {
+    
+        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var interactPos = transform.position + facingDir; 
+    
+        //Debug.DrawLine(transform.position, interactPos, Color.red, 1f);
+
+        var colider = Physics2D.OverlapCircle(interactPos, 0.2f, interacableLayer);
+        if(colider != null)
+        {
+        
+            Debug.Log("there is a NPC here!");
+
+        }
 
     }
 
@@ -75,7 +100,7 @@ public class PlayerController : MonoBehaviour
 
     private bool isWalkable(Vector3 targetPos)
     {
-        if(Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
+        if(Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer | interacableLayer) != null)
         {
             return false;
         }
