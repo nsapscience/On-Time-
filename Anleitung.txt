@@ -1,4 +1,5 @@
 Repo runterladen
+- Desktop oder ein Ordner öffnen
 - win + r -> cmd
 - git clone https://github.com/nsapscience/On-Time-.git
 - Unity öffnen
@@ -19,4 +20,5 @@ Repo runterladen
 
 Änderungen runterladen
 - Terminal
+
 - git pull
