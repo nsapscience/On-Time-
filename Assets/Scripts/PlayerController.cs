@@ -69,11 +69,11 @@ public class PlayerController : MonoBehaviour
     
         //Debug.DrawLine(transform.position, interactPos, Color.red, 1f);
 
-        var colider = Physics2D.OverlapCircle(interactPos, 0.2f, interacableLayer);
-        if(colider != null)
+        var collider = Physics2D.OverlapCircle(interactPos, 0.2f, interacableLayer);
+        if(collider != null)
         {
         
-            Debug.Log("there is a NPC here!");
+            collider.GetComponent<Interactable>()?.Interact();
 
         }
 
