@@ -5,10 +5,12 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour, Interactable
 {
     
+    [SerializeField] Dialog dialog;
+
     public void Interact()
     {
     
-        Debug.Log("You will talk to this NPC.");
+        StartCoroutine(DialogManager.Instance.ShowDialog(dialog));
 
     }
 
