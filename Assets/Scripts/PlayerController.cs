@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void Update()
+    public void HandleUdpdate()
     {
 
         if(!isMoving)
