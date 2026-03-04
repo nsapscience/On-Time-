@@ -8,10 +8,11 @@ Repo runterladen
 
 
 
+
 Änderungen Hochladen
 - On Time! Ordner im Explorer öffnen
 - rechts Klick
-- "im Terminal öffnen" klicken
+- "im Terminal öffnen" klicken (beim allerersten mal "git init")
 	- git add .
 	- git commit -m "Beschreibung"
 	- git push
@@ -22,3 +23,4 @@ Repo runterladen
 - Terminal
 
 - git pull
+
