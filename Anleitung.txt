@@ -6,9 +6,6 @@ Repo runterladen
 - Add -> Add Project from disk
 - On-Time- Ordner auswählen
 
-
-
-
 Änderungen Hochladen
 - On Time! Ordner im Explorer öffnen
 - rechts Klick
@@ -17,10 +14,9 @@ Repo runterladen
 	- git commit -m "Beschreibung"
 	- git push
 
-
-
 Änderungen runterladen
 - Terminal
 
 - git pull
+
 
