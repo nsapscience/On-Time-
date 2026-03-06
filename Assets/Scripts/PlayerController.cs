@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask solidObjectsLayer;
     public LayerMask interacableLayer;
-    public LayerMask battleLayer;
-
 
     private void Awake()
     {
@@ -95,9 +93,6 @@ public class PlayerController : MonoBehaviour
         transform.position = targetPos;
 
         isMoving = false;
-
-        CheckForEncounters();
-
     }
 
     private bool isWalkable(Vector3 targetPos)
@@ -108,22 +103,6 @@ public class PlayerController : MonoBehaviour
         }
 
         return true;
-
-    }
-
-    private void CheckForEncounters()
-    {
-        
-        if(Physics2D.OverlapCircle(transform.position, 0.01f, battleLayer) != null)
-        {
-            if(Random.Range(1, 100) <= 50)
-            {
-                
-                Debug.Log("A battle has started!");
-
-            }
-            
-        }
 
     }
 
