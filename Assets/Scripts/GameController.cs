@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public enum GameState { FreeRoam, Dialog, Battle }
 
 public class GameController : MonoBehaviour
@@ -47,25 +48,6 @@ public class GameController : MonoBehaviour
         }else if(state == GameState.Battle)
         {
 
-
-
         }
-
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            
-            LoadPauseScene();
-
-        }
-    }
-
-    public void LoadPauseScene()
-    {
-        
-        SceneManager.LoadScene("Pause");
-        Time.timeScale = 0f; // Spiel einfrieren
-    // Lädt die Pause-Szene ZUSÄTZLICH zur aktuellen Szene
-        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
-
     }
 }

@@ -1,14 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class Pause_Menu : MonoBehaviour
 {
-    private bool isPaused = false; // Hier wird sie zugewiesen
+    public GameObject pauseMenuUI;
+    public bool isPaused = false;
+
+    private bool inputBlocked = false;
 
     void Update()
     {
+        if (inputBlocked) return;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            // HIER wird der Wert benutzt!
             if (isPaused)
             {
                 Resume();
@@ -20,24 +25,32 @@ public class Pause_Menu : MonoBehaviour
         }
     }
 
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+
+        StartCoroutine(BlockInput());
+    }
+
     void Pause()
     {
-        isPaused = true; // Wert setzen
-        SceneManager.LoadScene("Pause");
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
     }
 
-    void Resume()
+    System.Collections.IEnumerator BlockInput()
     {
-        isPaused = false; // Wert setzen
-        // Logik um zur Spiel-Szene zurückzukehren
-        ime.timeScale = 1f; // Zeit wieder starten
-    // Entlädt nur die Pause-Szene, das Spiel im Hintergrund ist noch da
-        SceneManager.UnloadSceneAsync("Pause");
+        inputBlocked = true;
+        yield return new WaitForSecondsRealtime(0.2f);
+        inputBlocked = false;
     }
-     public void Home()
+
+    public void Home()
     {
-        
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
-
     }
 }
