@@ -43,7 +43,7 @@ public class GameController : MonoBehaviour
         }else if(state == GameState.Dialog)
         {
         
-            DialogManager.Instance.HandleUdpdate();
+            DialogManager.Instance.HandleUpdate();
 
         }else if(state == GameState.Battle)
         {
