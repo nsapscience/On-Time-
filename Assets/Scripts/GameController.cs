@@ -49,5 +49,10 @@ public class GameController : MonoBehaviour
         {
 
         }
+
+        if (playerController != null && playerController.enabled)
+        {
+            playerController.HandleUdpdate();
+        }
     }
 }
