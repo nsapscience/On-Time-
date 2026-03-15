@@ -1,20 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [System.Serializable]
-
-public class Dialog 
+public class Dialog
 {
-    
-    [SerializeField] List<string> lines;
-
-    public List<string> Lines
-    {
-    
-        get { return lines; }
-
-    }
-
+    [SerializeField] List<string> lines = new List<string>();
+    public List<string> Lines { get => lines; set => lines = value; }
 }
