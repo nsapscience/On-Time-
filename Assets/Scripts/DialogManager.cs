@@ -17,6 +17,7 @@ public class DialogManager : MonoBehaviour
     public event Action OnHideDialog;
 
     public static DialogManager Instance { get; private set; }
+    private Coroutine typingCoroutine;
 
     private void Awake()
     {
@@ -34,6 +35,9 @@ public class DialogManager : MonoBehaviour
     public IEnumerator ShowDialog(Dialog dialog, bool askChoice = false, Action<bool> callback = null)
     {
         yield return new WaitForEndOfFrame();
+
+        isTyping = false; 
+
         OnShowDialog?.Invoke();
 
         this.dialog = dialog;
@@ -43,32 +47,31 @@ public class DialogManager : MonoBehaviour
 
         // WICHTIG: Hier am Anfang muss die ChoiceBox IMMER aus sein!
         choiceBox.SetActive(false); 
-
         dialogBox.SetActive(true);
-        StartCoroutine(TypeDialog(dialog.Lines[0]));
+
+        typingCoroutine = StartCoroutine(TypeDialog(dialog.Lines[0]));
     }
 
-    public void HandleUpdate() // Achte darauf, dass GameController auch HandleUpdate ruft
+    public void HandleUpdate() 
     {
+        // Wenn wir gerade tippen, erlauben wir "E" zum Überspringen (optional)
+        // oder wir ignorieren es, aber wir müssen die Coroutine-Logik trennen.
         if (Input.GetKeyDown(KeyCode.E) && !isTyping)
         {
             currentLine++;
 
             if (currentLine < dialog.Lines.Count)
             {
-                // Wenn es noch Textzeilen gibt, tipp die nächste
-                StartCoroutine(TypeDialog(dialog.Lines[currentLine]));
+                if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+                typingCoroutine = StartCoroutine(TypeDialog(dialog.Lines[currentLine]));
             }
             else 
             {
-                // Wir sind am Ende des Textes angekommen
                 if (waitForChoice)
                 {
-                    // Erst jetzt, wenn kein Text mehr kommt, wird die Box eingeblendet
-                    if (!choiceBox.activeSelf) 
-                    {
-                        choiceBox.SetActive(true);
-                    }
+                    choiceBox.SetActive(true);
+                    // Wichtig: Wir beenden hier, damit das "E" nicht 
+                    // sofort wieder den Dialog schließt, während die Buttons da sind.
                 }
                 else 
                 {
@@ -124,5 +127,10 @@ public class DialogManager : MonoBehaviour
             yield return new WaitForSeconds(1f / letterPerSecond);
         }
         isTyping = false;
+
+        if(currentLine == dialog.Lines.Count - 1 && waitForChoice)
+        {
+            choiceBox.SetActive(true);
+        }
     }
 } // Diese Klammer schließt die Klasse ab.
