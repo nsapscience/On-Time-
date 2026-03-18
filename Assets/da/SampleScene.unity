@@ -3133,8 +3133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e491dbf8b4c85e64e8260c50d45c9e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusInteraction
-  speed: 10
-  waitTime: 5
+  targetSpeed: 15
+  acceleration: 2
+  waitTime: 500
   finishLineX: 40
   resultPanel: {fileID: 1908675906}
   resultText: {fileID: 1332360431}
@@ -9936,6 +9937,8 @@ MonoBehaviour:
   gameContainer: {fileID: 1105311095}
   allMiniGamePrefabs:
   - {fileID: 4946552867870774695, guid: 45b733e2a0fbcf241b9d191803af2792, type: 3}
+  - {fileID: 5429795987607244654, guid: 659c16da44332e74fab5bd867049e971, type: 3}
+  - {fileID: 2825585826555788558, guid: 87dd047671129a54aa427fd538d9d585, type: 3}
 --- !u!1 &1332360430
 GameObject:
   m_ObjectHideFlags: 0
