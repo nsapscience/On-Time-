@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 02fa0c2cd5f76324aa14128e6895da69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5018127876274395517
+    second: Spielwelt_0
+  - first:
+      213: -4059964897735065025
+    second: Spielwelt_1
+  - first:
+      213: -1049467058797348867
+    second: Spielwelt_2
+  - first:
+      213: 6182622520600013651
+    second: Spielwelt_3
+  - first:
+      213: -3949340505939114860
+    second: Spielwelt_4
+  - first:
+      213: 7006770646806101991
+    second: Spielwelt_5
+  - first:
+      213: 6475862904920631973
+    second: Spielwelt_6
+  - first:
+      213: 615262449561463727
+    second: Spielwelt_7
+  - first:
+      213: 6513695812209066525
+    second: Spielwelt_8
+  - first:
+      213: -5409659753319776468
+    second: Spielwelt_9
+  - first:
+      213: -5672096470074470324
+    second: Spielwelt_10
+  - first:
+      213: -8589086732518520834
+    second: Spielwelt_11
+  - first:
+      213: -598750031701615792
+    second: Spielwelt_12
+  - first:
+      213: -516828683540231859
+    second: Spielwelt_13
+  - first:
+      213: 485530660046619511
+    second: Spielwelt_14
+  - first:
+      213: -1186142654483394719
+    second: Spielwelt_15
+  - first:
+      213: 359334950744782715
+    second: Spielwelt_16
+  - first:
+      213: 5803116825490189575
+    second: Spielwelt_17
+  - first:
+      213: -4074731433952506407
+    second: Spielwelt_18
+  - first:
+      213: -2187556131298842913
+    second: Spielwelt_19
+  - first:
+      213: 7678826278458033044
+    second: Spielwelt_20
+  - first:
+      213: -7454637895523902175
+    second: Spielwelt_21
+  - first:
+      213: -1399123082893794602
+    second: Spielwelt_22
+  - first:
+      213: 6808216263177593902
+    second: Spielwelt_23
+  - first:
+      213: 3090143688564761425
+    second: Spielwelt_24
+  - first:
+      213: -7474639761240226130
+    second: Spielwelt_25
+  - first:
+      213: 7731911032772085276
+    second: Spielwelt_26
+  - first:
+      213: 7619742185542443252
+    second: Spielwelt_27
+  - first:
+      213: 1901293239183303551
+    second: Spielwelt_28
+  - first:
+      213: 314393817949663052
+    second: Spielwelt_29
+  - first:
+      213: 4312759807720050380
+    second: Spielwelt_30
+  - first:
+      213: -7634489552662804686
+    second: Spielwelt_31
+  - first:
+      213: -2868113371070393961
+    second: Spielwelt_32
+  - first:
+      213: 6335478012412132950
+    second: Spielwelt_33
+  - first:
+      213: -1145523665745392499
+    second: Spielwelt_34
+  - first:
+      213: 5375299323991950344
+    second: Spielwelt_35
+  - first:
+      213: 72861282692499225
+    second: Spielwelt_36
+  - first:
+      213: -6045383707348753376
+    second: Spielwelt_37
+  - first:
+      213: 2942430327905904876
+    second: Spielwelt_38
+  - first:
+      213: 6515783819244637304
+    second: Spielwelt_39
+  - first:
+      213: -8708393686666861195
+    second: Spielwelt_40
+  - first:
+      213: -2737633148273151194
+    second: Spielwelt_41
+  - first:
+      213: 3649391749090192635
+    second: Spielwelt_42
+  - first:
+      213: -6366391454549607863
+    second: Spielwelt_43
+  - first:
+      213: -4601602630904811452
+    second: Spielwelt_44
+  - first:
+      213: 4059748766204671245
+    second: Spielwelt_45
+  - first:
+      213: 3223018668376043777
+    second: Spielwelt_46
+  - first:
+      213: -7792128825266028370
+    second: Spielwelt_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spielwelt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7912de57b8f3a540800000000000000
+      internalID: 5018127876274395517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 366
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3242f5af6b18a7c0800000000000000
+      internalID: -4059964897735065025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 382
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7f8e4354b8f61f0800000000000000
+      internalID: -1049467058797348867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 382
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ba1b0fc661dc550800000000000000
+      internalID: 6182622520600013651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 382
+        width: 62
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494007efbbf1139c0800000000000000
+      internalID: -3949340505939114860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 382
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eff281a7cc0d3160800000000000000
+      internalID: 7006770646806101991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 382
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa6ced5003eed950800000000000000
+      internalID: 6475862904920631973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 382
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab6fb520f9d98800800000000000000
+      internalID: 615262449561463727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 382
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12cba584db456a50800000000000000
+      internalID: 6513695812209066525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 382
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fb5afad170de4b0800000000000000
+      internalID: -5409659753319776468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 382
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40d671005aa841b0800000000000000
+      internalID: -5672096470074470324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 382
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7863baf1f6dc880800000000000000
+      internalID: -8589086732518520834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 382
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bdb2bb400d0b7f0800000000000000
+      internalID: -598750031701615792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_13
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 382
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d490ad3fc0bd3d8f0800000000000000
+      internalID: -516828683540231859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773c3a71093fcb600800000000000000
+      internalID: 485530660046619511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_15
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 366
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f049a4a89f98fe0800000000000000
+      internalID: -1186142654483394719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 318
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77768edb3d9cf400800000000000000
+      internalID: 359334950744782715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 318
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d6f6da100d88050800000000000000
+      internalID: 5803116825490189575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 318
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd84248955a377c0800000000000000
+      internalID: -4074731433952506407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 302
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd664bbe94d34a1e0800000000000000
+      internalID: -2187556131298842913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 318
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4930d6be0dba09a60800000000000000
+      internalID: 7678826278458033044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 318
+        width: 94
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dd124945ecb8890800000000000000
+      internalID: -7454637895523902175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_22
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 291
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2e01f08f0559ce0800000000000000
+      internalID: -1399123082893794602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_23
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 318
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24ecb0be94ab7e50800000000000000
+      internalID: 6808216263177593902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 270
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15361ddff4562ea20800000000000000
+      internalID: 3090143688564761425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6044f4dbeb44890800000000000000
+      internalID: -7474639761240226130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 254
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16cd4f6e144d4b60800000000000000
+      internalID: 7731911032772085276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 254
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0e0598523ceb960800000000000000
+      internalID: 7619742185542443252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 290
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f736f57a020c26a10800000000000000
+      internalID: 1901293239183303551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fe77ef283fc5400800000000000000
+      internalID: 314393817949663052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 206
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce4cb4f1300adb30800000000000000
+      internalID: 4312759807720050380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 242
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2374a1c7338dc0690800000000000000
+      internalID: -7634489552662804686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 242
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7911dcdb51a6238d0800000000000000
+      internalID: -2868113371070393961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 242
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e7f1c7fa32ce750800000000000000
+      internalID: 6335478012412132950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_34
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 207
+        width: 121
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c41759b484a10f0800000000000000
+      internalID: -1145523665745392499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 238
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80400ff6146e89a40800000000000000
+      internalID: 5375299323991950344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91704c853fad20100800000000000000
+      internalID: 72861282692499225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 142
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0242b884c8b7a1ca0800000000000000
+      internalID: -6045383707348753376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 165
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8ea272bcc95d820800000000000000
+      internalID: 2942430327905904876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_39
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 158
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c805b8cd6bc6a50800000000000000
+      internalID: 6515783819244637304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_40
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 162
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575a7fdb412952780800000000000000
+      internalID: -8708393686666861195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 150
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62338dff729f10ad0800000000000000
+      internalID: -2737633148273151194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 150
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc23c2e57e35a230800000000000000
+      internalID: 3649391749090192635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 154
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94afc72e3b806a7a0800000000000000
+      internalID: -6366391454549607863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4407a6b99c2d320c0800000000000000
+      internalID: -4601602630904811452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_45
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 6
+        width: 50
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05b5fe4eff175830800000000000000
+      internalID: 4059748766204671245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_46
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 41
+        width: 34
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101b10117667abc20800000000000000
+      internalID: 3223018668376043777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spielwelt_47
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 70
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0cfed2e1cccd390800000000000000
+      internalID: -7792128825266028370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spielwelt_0: 5018127876274395517
+      Spielwelt_1: -4059964897735065025
+      Spielwelt_10: -5672096470074470324
+      Spielwelt_11: -8589086732518520834
+      Spielwelt_12: -598750031701615792
+      Spielwelt_13: -516828683540231859
+      Spielwelt_14: 485530660046619511
+      Spielwelt_15: -1186142654483394719
+      Spielwelt_16: 359334950744782715
+      Spielwelt_17: 5803116825490189575
+      Spielwelt_18: -4074731433952506407
+      Spielwelt_19: -2187556131298842913
+      Spielwelt_2: -1049467058797348867
+      Spielwelt_20: 7678826278458033044
+      Spielwelt_21: -7454637895523902175
+      Spielwelt_22: -1399123082893794602
+      Spielwelt_23: 6808216263177593902
+      Spielwelt_24: 3090143688564761425
+      Spielwelt_25: -7474639761240226130
+      Spielwelt_26: 7731911032772085276
+      Spielwelt_27: 7619742185542443252
+      Spielwelt_28: 1901293239183303551
+      Spielwelt_29: 314393817949663052
+      Spielwelt_3: 6182622520600013651
+      Spielwelt_30: 4312759807720050380
+      Spielwelt_31: -7634489552662804686
+      Spielwelt_32: -2868113371070393961
+      Spielwelt_33: 6335478012412132950
+      Spielwelt_34: -1145523665745392499
+      Spielwelt_35: 5375299323991950344
+      Spielwelt_36: 72861282692499225
+      Spielwelt_37: -6045383707348753376
+      Spielwelt_38: 2942430327905904876
+      Spielwelt_39: 6515783819244637304
+      Spielwelt_4: -3949340505939114860
+      Spielwelt_40: -8708393686666861195
+      Spielwelt_41: -2737633148273151194
+      Spielwelt_42: 3649391749090192635
+      Spielwelt_43: -6366391454549607863
+      Spielwelt_44: -4601602630904811452
+      Spielwelt_45: 4059748766204671245
+      Spielwelt_46: 3223018668376043777
+      Spielwelt_47: -7792128825266028370
+      Spielwelt_5: 7006770646806101991
+      Spielwelt_6: 6475862904920631973
+      Spielwelt_7: 615262449561463727
+      Spielwelt_8: 6513695812209066525
+      Spielwelt_9: -5409659753319776468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
