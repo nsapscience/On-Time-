@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Settings/Scenes/Pause.unity
     guid: ddbdc262793fbc44699cbb2a406abc77
+  - enabled: 0
+    path: Assets/Art/Video/IntroScene.unity
+    guid: 7c03d9da46769fb4aa5b74ffcf74ef04
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
