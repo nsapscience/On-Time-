@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, AutoInteractable
 {
     public float moveSpeed;
 
@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void Interact()
+    public void Interact()
     {
     
         var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
         if(collider != null)
         {
         
-            collider.GetComponent<Interactable>()?.Interact();
+            collider.GetComponent<AutoInteractable>()?.Interact();
 
         }
 
