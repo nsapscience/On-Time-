@@ -5,16 +5,15 @@ using UnityEngine.SceneManagement;
 public class VideoToGame : MonoBehaviour
 {
     public VideoPlayer myVideoPlayer;
-    public string sceneToLoad = "Level1";
+    public string sceneToLoad = "SampleScene";
 
     void Start()
     {
-        // Wir abonnieren das Ereignis: Was passiert, wenn das Video fertig ist?
         myVideoPlayer.loopPointReached += LoadScene;
     }
 
     void LoadScene(VideoPlayer vp)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene("SampleScene");
     }
 }
