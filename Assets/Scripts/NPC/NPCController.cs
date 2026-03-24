@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class NPCController : MonoBehaviour, Interactable
+public class NPCController : MonoBehaviour, AutoInteractable
 {
     [SerializeField] Dialog dialog; // Der Text aus dem Inspector
     [SerializeField] Dialog loseDialog;

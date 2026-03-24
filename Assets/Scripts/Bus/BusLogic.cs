@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class BusLogic : MonoBehaviour, Interactable
+public class BusLogic : MonoBehaviour, AutoInteractable
 {
     [Header("Bewegung")]
     public float targetSpeed = 10.0f;      // Die Endgeschwindigkeit
@@ -13,6 +13,13 @@ public class BusLogic : MonoBehaviour, Interactable
     public GameObject resultPanel;
     public TextMeshProUGUI resultText;
     public GameObject busCamera;
+
+    [Header ("Ergebnisbilder")]
+    public GameObject winImage;
+    public GameObject loseImage;
+
+    [Header ("Zusätzliche UI")]    
+    public GameObject timerGameObject;
 
     private float currentSpeed = 0.0f;    // Startet bei 0
     private float timer = 0.0f;
@@ -74,15 +81,24 @@ public class BusLogic : MonoBehaviour, Interactable
         currentSpeed = 0; // Sofortiger Stopp am Ende
         resultPanel.SetActive(true);
 
+        if(timerGameObject != null)
+        {    
+            timerGameObject.SetActive(false);
+        }
+
+        if(resultPanel != null) resultPanel.SetActive(true);
+
+
+        if(winImage != null) winImage.gameObject.SetActive( false); 
+        if(loseImage != null) loseImage.gameObject.SetActive( false);
+
         if (isPlayerInBus)
         {
-            resultText.text = "Gewonnen!";
-            resultText.color = Color.green;
+            winImage.gameObject.SetActive( true);
         }
         else
         {
-            resultText.text = "Verloren!";
-            resultText.color = Color.red;
+            loseImage.gameObject.SetActive( true);
         }
     }
 

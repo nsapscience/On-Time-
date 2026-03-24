@@ -7,6 +7,10 @@ public class BusTimer : MonoBehaviour
     public bool timerLaeuft = false;
     public TextMeshProUGUI timerText; // Hier das UI-Element im Inspector reinziehen
 
+    [Header ("Zusätzliche UI")]
+
+    public GameObject timerUI; // Das gesamte Timer-UI, damit wir es am Ende ausblenden können
+
     void Update()
     {
         if (timerLaeuft)
