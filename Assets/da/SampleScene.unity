@@ -8293,7 +8293,7 @@ Transform:
   m_GameObject: {fileID: 307745053}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.0657, y: 52.994865, z: 0}
+  m_LocalPosition: {x: 82.28767, y: 52.402187, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8330,7 +8330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a883445c31f96447aaaa99742ea81bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoInteractNPC
-  detectionRange: 15
+  detectionRange: 10
   interactRange: 1.5
   moveSpeed: 3
   interactionDuration: 10
@@ -8446,7 +8446,7 @@ Transform:
   m_GameObject: {fileID: 336738282}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.46, y: 41.949997, z: 0}
+  m_LocalPosition: {x: 72.46, y: 41.949997, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8540,7 +8540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BusInteraction
   targetSpeed: 15
   acceleration: 2
-  waitTime: 500
+  waitTime: 180
   finishLineX: 100
   resultPanel: {fileID: 1908675906}
   resultText: {fileID: 0}
@@ -136960,7 +136960,7 @@ Transform:
   m_GameObject: {fileID: 1191229254}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.57976, y: 71.745834, z: 0}
+  m_LocalPosition: {x: 69.8761, y: 71.350716, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137070,7 +137070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a883445c31f96447aaaa99742ea81bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoInteractNPC
-  detectionRange: 6
+  detectionRange: 7
   interactRange: 1.5
   moveSpeed: 3
   interactionDuration: 10
@@ -137303,7 +137303,7 @@ Transform:
   m_GameObject: {fileID: 1344784391}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.579758, y: 52.745834, z: 0}
+  m_LocalPosition: {x: 55.57976, y: 42.745834, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137889,7 +137889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20bbb982b06a2ef4cac04d1005fdd50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusTimer
-  restZeit: 60
+  restZeit: 180
   timerLaeuft: 1
   timerText: {fileID: 1618419343}
   timerUI: {fileID: 0}
